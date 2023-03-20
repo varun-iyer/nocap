@@ -1,0 +1,83 @@
+LOAD_SQLITE()
+         461789558 function calls in 760.498 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    8.834    8.834  760.498  760.498 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+  2263111    3.424    0.000    8.108    0.000 codecs.py:319(decode)
+ 65323332  310.100    0.000  662.173    0.000 csv.py:107(__next__)
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+130646663   54.051    0.000   54.059    0.000 csv.py:93(fieldnames)
+        1   81.713   81.713  751.664  751.664 prof.py:57(load_sqlite)
+  2263111    4.684    0.000    4.684    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        1    0.000    0.000    0.000    0.000 {built-in method _sqlite3.connect}
+        1    0.000    0.000  760.498  760.498 {built-in method builtins.exec}
+130646663   13.837    0.000   13.837    0.000 {built-in method builtins.len}
+ 65323333  276.077    0.000  284.185    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+ 65323331    7.778    0.000    7.778    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'cursor' of 'sqlite3.Connection' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'execute' of 'sqlite3.Cursor' objects}
+
+
+ACCESS_SQLITE()
+         20006 function calls in 0.034 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.034    0.034 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 prof.py:57(load_sqlite)
+        1    0.006    0.006    0.034    0.034 prof.py:78(access_sqlite)
+        1    0.000    0.000    0.034    0.034 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'cursor' of 'sqlite3.Connection' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+    10000    0.026    0.000    0.026    0.000 {method 'execute' of 'sqlite3.Cursor' objects}
+    10000    0.002    0.000    0.002    0.000 {method 'fetchone' of 'sqlite3.Cursor' objects}
+
+
+LOAD_dict()
+         396466223 function calls in 764.706 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  764.706  764.706 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+  2263111    3.414    0.000    8.075    0.000 codecs.py:319(decode)
+ 65323332  291.214    0.000  639.787    0.000 csv.py:107(__next__)
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+130646663   53.917    0.000   53.917    0.000 csv.py:93(fieldnames)
+        1  124.919  124.919  764.706  764.706 prof.py:84(load_dict)
+  2263111    4.661    0.000    4.661    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        1    0.000    0.000  764.706  764.706 {built-in method builtins.exec}
+130646662   13.325    0.000   13.325    0.000 {built-in method builtins.len}
+ 65323333  273.256    0.000  281.331    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+ACCESS_dict()
+         5 function calls in 0.000 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 prof.py:84(load_dict)
+        1    0.000    0.000    0.000    0.000 prof.py:96(access_dict)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

@@ -1,0 +1,38 @@
+LOAD_dict()
+         396466223 function calls in 750.161 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  750.161  750.161 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+  2263111    3.758    0.000    8.483    0.000 codecs.py:319(decode)
+ 65323332  286.046    0.000  642.662    0.000 csv.py:107(__next__)
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+130646663   52.665    0.000   52.665    0.000 csv.py:93(fieldnames)
+        1  107.498  107.498  750.161  750.161 prof.py:84(load_dict)
+  2263111    4.725    0.000    4.725    0.000 {built-in method _codecs.utf_8_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        1    0.000    0.000  750.161  750.161 {built-in method builtins.exec}
+130646662   13.322    0.000   13.322    0.000 {built-in method builtins.len}
+ 65323333  282.148    0.000  290.630    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+ACCESS_dict()
+         5 function calls in 0.041 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.041    0.041 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 prof.py:84(load_dict)
+        1    0.041    0.041    0.041    0.041 prof.py:96(access_dict)
+        1    0.000    0.000    0.041    0.041 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
