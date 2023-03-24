@@ -276,8 +276,8 @@ class NoCap:
 
           lazy_result = dask.delayed(self.process)(row)
           lazy_results.append(lazy_result)
-    results = dask.compute(*lazy_results)
-    print(*results, sep='\n')
+      results = dask.compute(*lazy_results)
+      print(*results, sep='\n')
     
     end = time.perf_counter()
     print((end-start)/60)
